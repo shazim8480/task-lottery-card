@@ -1,10 +1,11 @@
 import "./App.css";
+import Button from "./Components/UI/Button";
 
 function App() {
   return (
-    <main className="bg-blue-800">
-      <h1 className="text-slate-500"></h1>
-      hello vite
+    <main className="">
+      <h1 className="text-slate-500">hello vite</h1>
+      <Button />
     </main>
   );
 }
