@@ -14,6 +14,7 @@ export default {
       dark: "#1e3f18",
       light: "#f1f4ed",
       border: "#4f674a",
+      body: "#fffefe",
     },
     extend: {},
   },

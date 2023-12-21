@@ -9,6 +9,8 @@ const Button = ({ children, variant = "primary", className }) => {
         {
           "bg-primary text-light": variant === "primary",
           "bg-secondary text-primary": variant === "secondary",
+          "bg-body text-dark font-bold border-2 border-[#778872]":
+            variant === "outlined",
         },
         className
       )}
