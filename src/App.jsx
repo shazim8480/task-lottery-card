@@ -1,7 +1,7 @@
 import "./App.css";
-import CardContainer from "./Components/CardContainer/CardContainer";
-import Button from "./Components/UI/Button";
 import Typography from "./Components/UI/Typography";
+
+import CardContainer from "./Components/CardContainer/CardContainer";
 
 function App() {
   return (
