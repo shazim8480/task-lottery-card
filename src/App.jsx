@@ -7,7 +7,6 @@ function App() {
   return (
     <main className="">
       <Typography variant="header">Vol Stein Dich</Typography>
-      <Button variant="secondary">Get Started</Button>
       <CardContainer />
     </main>
   );
