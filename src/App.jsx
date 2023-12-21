@@ -6,7 +6,9 @@ import Typography from "./Components/UI/Typography";
 function App() {
   return (
     <main className="">
-      <Typography variant="header">Vol Stein Dich</Typography>
+      <Typography className={"mb-10"} variant="header">
+        Vælg din lodseddel
+      </Typography>
       <CardContainer />
     </main>
   );
