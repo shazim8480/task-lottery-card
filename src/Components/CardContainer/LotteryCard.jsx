@@ -21,7 +21,7 @@ const LotteryCard = ({ item }) => {
         </div>
         {/* numbered text */}
         <Typography className={"pt-4 text-3xl"} variant="header">
-          {item}
+          {item.value}
         </Typography>
       </div>
       {/* button - secondary */}
@@ -33,7 +33,7 @@ const LotteryCard = ({ item }) => {
       </Button>
       {/* button - primary */}
       <Button className={"font-normal w-full shadow-sm mt-2"} variant="primary">
-        Keb lodseddel
+        Kœb lodseddel
       </Button>
     </div>
   );
